@@ -14,7 +14,7 @@ function Message(props: MessageTypeProps) {
             <div className={style.avatar}>
                 <img src={avatar} alt="ava"/>
             </div>
-            <div className={style.message}>
+            <div className={`${style.message} `}>
                 <div>{name}</div>
                 <div>{message}</div>
             </div>
