@@ -17,8 +17,9 @@ function Message(props: MessageTypeProps) {
             <div className={`${style.message} `}>
                 <div>{name}</div>
                 <div>{message}</div>
+                <div className={style.time}>{time}</div>
             </div>
-            <div className={style.time}>{time}</div>
+
         </div>
     )
 }

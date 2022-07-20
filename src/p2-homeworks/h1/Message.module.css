@@ -17,6 +17,7 @@
     margin-right: 15px;
 }
 .message{
+    width: 330px;
     position:relative;
     border-radius: 10px 10px 10px 0 ;
     display: flex;
@@ -50,7 +51,7 @@
     box-shadow: 0px 1px 1px 1px rgba(160,172,182,.5);
 }*/
 .time{
-    margin-left: 10px;
+    align-self: flex-end;
     opacity: 0.5;
     margin-bottom: 5px;
 }
