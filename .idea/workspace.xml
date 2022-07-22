@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96709628-8ea1-4f71-8fd6-5e1506b9e8be" name="Default Changelist" comment="HM1 бес хвоста пока что )">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h1/Message.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h1/Message.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p2-homeworks/h1/Message.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/p2-homeworks/h1/Message.tsx" afterDir="false" />
+    <list default="true" id="96709628-8ea1-4f71-8fd6-5e1506b9e8be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ignat_home_tasks.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,70 +31,8 @@
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/react-scripts" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
-    <property name="ts.external.directory.path" value="D:\It-incubator Go\Monday\ignat_home_tasks\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RunManager" selected="Jest.find text &quot;test message time&quot;">
-    <configuration name="find text &quot;test message name&quot;" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/p2-homeworks/h1/tests/Message.test.tsx" />
-      <test-names>
-        <test-name value="find text &quot;test message name&quot;" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="find text &quot;test message time&quot;" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/p2-homeworks/h1/tests/Message.test.tsx" />
-      <test-names>
-        <test-name value="find text &quot;test message time&quot;" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="find text &quot;test message&quot;" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/p2-homeworks/h1/tests/Message.test.tsx" />
-      <test-names>
-        <test-name value="find text &quot;test message&quot;" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.start" />
-        <item itemvalue="Jest.find text &quot;test message time&quot;" />
-        <item itemvalue="Jest.find text &quot;test message&quot;" />
-        <item itemvalue="Jest.find text &quot;test message name&quot;" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -105,31 +44,7 @@
       <updated>1658230283662</updated>
       <workItem from="1658230284752" duration="229000" />
       <workItem from="1658230544958" duration="45000" />
-      <workItem from="1658230602891" duration="10701000" />
-      <workItem from="1658334538902" duration="1096000" />
     </task>
-    <task id="LOCAL-00001" summary="First">
-      <created>1658230692865</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1658230692865</updated>
-    </task>
-    <task id="LOCAL-00002" summary="HM1 бес хвоста пока что )">
-      <created>1658233190195</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1658233190195</updated>
-    </task>
-    <task id="LOCAL-00003" summary="HW1 done">
-      <created>1658335123318</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1658335123318</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,9 +64,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="First" />
-    <MESSAGE value="HM1 бес хвоста пока что )" />
-    <MESSAGE value="HW1 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW1 done" />
   </component>
 </project>
