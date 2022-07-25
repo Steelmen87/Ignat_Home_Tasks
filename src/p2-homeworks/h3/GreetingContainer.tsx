@@ -16,19 +16,31 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
 
     const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => { // need to fix any
         setName(e.currentTarget.value) // need to fix
+        setError('')
     }
     const addUser = () => {
-        alert(`Hello  ! ${name}`)
-        addUserCallback(name)
-        setName('')// need to fix
-    }
-    const onKeyPressHandler = (e: KeyboardEvent<HTMLInputElement>) => {
-        if (name == '') {
-            setError('Заполните поля ввода.')
+        if (name.trim() === '') {
+            setError('Поле не заполнено')
             return
         }
+        if (name) {
+            addUserCallback(name)
+            setName('')
+            alert(`Hello  ! ${name}`)
+            setError('')// need to fix
+        }
+
+
+    }
+    const onKeyPressHandler = (e: KeyboardEvent<HTMLInputElement>) => {
+        if (name === '') {
+            setError('Поле не заполнено')
+            return;
+        }
+
         if (e.key === 'Enter') {
             addUser()
+            setError('')
         }
     }
     const totalUsers = users.length // need to fix

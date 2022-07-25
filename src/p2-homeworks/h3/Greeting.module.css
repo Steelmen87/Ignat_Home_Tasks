@@ -1,7 +1,22 @@
 .someClass {
 
 }
-
+.greeting{
+    padding: 10px;
+}
 .error {
     border: 1px solid red;
+    color: red;
+    }
+.error_span {
+    color: red;
+    font-style: italic;
+    font-size: 14px;
+}
+.button_class{
+    margin:0 10px;
+}
+.totalU{
+    color: #8a2be2;
+    font-size: 18px;
 }
