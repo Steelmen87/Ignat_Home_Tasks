@@ -2,7 +2,13 @@
 
 }
 .greeting{
+    margin-left: 10px;
     padding: 10px;
+    width: 290px;
+    height: 68px;
+    border-radius: 5px;
+    background-image: url("https://raw.githubusercontent.com/telegramdesktop/tdesktop/dev/Telegram/Resources/art/bg_initial.jpg");
+    border: 1px solid black;
 }
 .error {
     border: 1px solid red;
