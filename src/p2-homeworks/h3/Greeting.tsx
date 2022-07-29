@@ -15,6 +15,7 @@ const Greeting: React.FC<GreetingPropsType> = (
     {name, setNameCallback, addUser, error, onKeyPressHandler, totalUsers} // деструктуризация пропсов
 ) => {
     const inputClass = error !== '' ? s.error : ''  // need to fix with (?:)
+    let dis = !!error
     const addUserHandler = () => addUser()
     return (
         <div className={s.greeting}>
@@ -23,11 +24,14 @@ const Greeting: React.FC<GreetingPropsType> = (
                 onChange={setNameCallback}
                 className={inputClass}
                 onKeyPress={onKeyPressHandler}
+                onBlur={setNameCallback}
             />
 
             <button
+                disabled={dis}
                 className={s.button_class}
-                onClick={addUserHandler}>add</button>
+                onClick={addUserHandler}>add
+            </button>
             <span className={s.totalU}>{totalUsers}</span>
             <br/>
             <span className={s.error_span}>{error}</span>

@@ -33,7 +33,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
 
     }
     const onKeyPressHandler = (e: KeyboardEvent<HTMLInputElement>) => {
-        if (name === '') {
+        if (name.trim() === '') {
             setError('Поле не заполнено')
             return;
         }
