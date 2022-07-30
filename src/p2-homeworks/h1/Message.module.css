@@ -17,6 +17,7 @@
     margin-right: 15px;
 }
 .message{
+    opacity: 0.6;
     width: 330px;
     position:relative;
     border-radius: 10px 10px 10px 0 ;
@@ -39,17 +40,7 @@
     height: 20px;
     background: radial-gradient(40px at top left, transparent 50%, rgba(255, 255, 255, 1) 0) no-repeat right bottom;
 }
-/*.message.droplet:before {
-    position: absolute;
-    content: '';
-    bottom: 0;
-    left: -8px;
-    width: 12px;
-    height: 1px;
-    background-color: inherit;
-    z-index: 1;
-    box-shadow: 0px 1px 1px 1px rgba(160,172,182,.5);
-}*/
+
 .time{
     align-self: flex-end;
     opacity: 0.5;

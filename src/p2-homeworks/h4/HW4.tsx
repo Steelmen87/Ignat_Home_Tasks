@@ -9,6 +9,7 @@ function HW4() {
     const error = text ? '' : 'error'
 
     const showAlert = () => {
+        setText('')
         if (error) {
             alert('введите текст...')
         } else {
@@ -60,7 +61,7 @@ function HW4() {
                     checked={checked}
                     onChangeChecked={setChecked}
                 >
-                    some text {/*// этот текст попадёт в children*/}
+                    label for checkBox {/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}

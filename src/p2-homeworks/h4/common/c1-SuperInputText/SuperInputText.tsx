@@ -31,6 +31,7 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
         onChangeText && onChangeText(e.currentTarget.value)
     }
     const onKeyPressCallback = (e: KeyboardEvent<HTMLInputElement>) => {
+        /*  if (e.currentTarget.value.trim() === '') return*/
         onKeyPress && onKeyPress(e);
 
         onEnter // если есть пропс onEnter
@@ -39,18 +40,23 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
     }
 
     const finalSpanClassName = `${s.error} ${spanClassName ? spanClassName : ''}`
-    const finalInputClassName = `${s.errorInput} ${className}` // need to fix with (?:) and s.superInput
-
+    const finalInputClassName = `${s['effect-9']} ${className ? className : ''} ${s.errorInput}` // need to fix with (?:) and s.superInput
+    /*${s.errorInput} ${className ? className : s['effect-9']}*/
     return (
         <>
-            <input
-                type={'text'}
-                onChange={onChangeCallback}
-                onKeyPress={onKeyPressCallback}
-                className={finalInputClassName}
+            <div className={s["col-3"]}>
+                <input
+                    type={'text'}
+                    onChange={onChangeCallback}
+                    onKeyPress={onKeyPressCallback}
+                    className={finalInputClassName}
 
-                {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
-            />
+                    {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
+                />
+                <span className={s["focus-border"]}>
+                <i></i>
+              </span>
+            </div>
             {error && <span className={finalSpanClassName}>{error}</span>}
         </>
     )
