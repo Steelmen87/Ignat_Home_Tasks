@@ -1,14 +1,10 @@
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen','Bebas Neue',
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Bebas Neue',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background: url('https://wallbox.ru/wallpapers/main/201340/kasseta-gitara-muzyka-e4c6286.jpg')no-repeat center;
+    background-color: #cdc9c9;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Bebas Neue',
-    monospace;
-}

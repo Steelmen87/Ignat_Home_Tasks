@@ -7,7 +7,7 @@
     width: 290px;
     height: 68px;
     border-radius: 5px;
-    background-image: url("https://raw.githubusercontent.com/telegramdesktop/tdesktop/dev/Telegram/Resources/art/bg_initial.jpg");
+    background-color: #FFAA00;
     border: 1px solid black;
 }
 .error {

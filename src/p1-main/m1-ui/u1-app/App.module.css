@@ -1,3 +1,18 @@
 .App {
 
 }
+
+.header {
+    font-family: Consolas;
+    text-align: center;
+    font-size: 80px;
+    color: #eceef3;
+    background-color: #0058B9;
+    padding-bottom: 26px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.mar_b{
+    margin-bottom:100px;
+}

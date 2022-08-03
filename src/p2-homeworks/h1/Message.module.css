@@ -2,7 +2,7 @@
     margin-left: 10px;
     display: flex;
     border: 1px solid greenyellow;
-    background-image: url("https://raw.githubusercontent.com/telegramdesktop/tdesktop/dev/Telegram/Resources/art/bg_initial.jpg");
+    background-color: #FFAA00;
     background-position-y: -54px;
     background-attachment: fixed;
     border-radius: 5px;
@@ -17,7 +17,7 @@
     margin-right: 15px;
 }
 .message{
-    opacity: 0.6;
+    opacity: 0.5;
     width: 330px;
     position:relative;
     border-radius: 10px 10px 10px 0 ;
