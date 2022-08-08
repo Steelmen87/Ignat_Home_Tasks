@@ -5,6 +5,30 @@
 }
 
 .superEditableSpan {
+    height: 70px;
+}
 
-    height: 60px;
+.SpanClassName {
+    border: 1px solid cornflowerblue;
+    text-align: center;
+    width: 240px;
+    height: 27px;
+    display: block;
+    position: relative;
+    top: -10px;
+    left: 60px
+}
+ .imgClass{
+     display: block;
+     position: relative;
+     top: 20px;
+     left: 25px;
+
+ }
+
+.style_button {
+    margin-top: 20px;
+    display: flex;
+    width: 430px;
+    justify-content: space-around;
 }

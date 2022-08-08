@@ -1,5 +1,7 @@
 import React, {DetailedHTMLProps, InputHTMLAttributes, HTMLAttributes, useState} from 'react'
 import SuperInputText from '../../../h4/common/c1-SuperInputText/SuperInputText'
+import s from "../../Style.module.css";
+import png from "../../../../img/pngegg.png";
 
 // тип пропсов обычного инпута
 type DefaultInputPropsType = DetailedHTMLProps<InputHTMLAttributes<HTMLInputElement>, HTMLInputElement>
@@ -46,10 +48,11 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
         onDoubleClick && onDoubleClick(e)
     }
 
-    const spanClassName = `${'сделать красивый стиль для спана'} ${className}`
 
+    const spanClassName = `${restProps.spanClassName} ${className}`
+    console.log(spanClassName)
     return (
-        <>
+        <div className={s.superEditableSpan}>
             {editMode
                 ? (
                     <SuperInputText
@@ -60,18 +63,23 @@ const SuperEditableSpan: React.FC<SuperEditableSpanType> = (
                         {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
                     />
                 ) : (
-                    <span
-                        onDoubleClick={onDoubleClickCallBack}
-                        className={spanClassName}
+                    <div>
 
-                        {...restSpanProps}
-                    >
+                        <img className={s.imgClass} src={png} alt='' width={'30px'}/>
+                        <span
+                            onDoubleClick={onDoubleClickCallBack}
+                            className={spanClassName}
+
+                            {...restSpanProps}
+                        >
                         {/*если нет захардкодженного текста для спана, то значение инпута*/}
-                        {children || restProps.value}
+                            {children || restProps.value}
                     </span>
+                    </div>
+
                 )
             }
-        </>
+        </div>
     )
 }
 
