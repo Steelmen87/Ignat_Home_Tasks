@@ -31,7 +31,7 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
         onChangeText && onChangeText(e.currentTarget.value)
     }
     const onKeyPressCallback = (e: KeyboardEvent<HTMLInputElement>) => {
-        /*  if (e.currentTarget.value.trim() === '') return*/
+        if (e.currentTarget.value.trim() === '') return
         onKeyPress && onKeyPress(e);
 
         onEnter // если есть пропс onEnter
