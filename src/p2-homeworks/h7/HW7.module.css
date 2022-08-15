@@ -1,0 +1,12 @@
+.flex {
+    padding-top: 20px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.flex .flex {
+    flex-direction: column;
+    margin-left: 10px;
+    padding-top: 0;
+
+}

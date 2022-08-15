@@ -1,0 +1,13 @@
+.select{
+    width: 90px;
+    height: 30px;
+    font-size: 22px;
+    border:none;
+    border-bottom: 3px solid blueviolet;
+    cursor: pointer;
+    color:blue;
+    margin-bottom: 85px;
+}
+.option{
+    cursor: pointer;
+}
