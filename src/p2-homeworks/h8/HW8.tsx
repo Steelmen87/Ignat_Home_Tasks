@@ -1,8 +1,15 @@
 import React, {useState} from 'react'
-import {homeWorkReducer} from './bll/homeWorkReducer'
+import {homeWorkReducer, Sort, SortAge} from './bll/homeWorkReducer'
 import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
+import s from './style.module.css'
 
-// export type UserType =
+export type GuyType = {
+    _id: number
+    name: string
+    age: number
+}
+export type GuysType = Array<GuyType>
+
 
 const initialPeople = [
     {_id: 0, name: 'Кот', age: 3},
@@ -13,36 +20,34 @@ const initialPeople = [
     {_id: 5, name: 'Ирина', age: 55},
 ]
 
-function HW8() {
-    const [people, setPeople] = useState<any>(initialPeople) // need to fix any
 
-    // need to fix any
-    const finalPeople = people.map((p: any) => (
-        <div key={p._id}>
-            some name, age
+function HW8() {
+    const [people, setPeople] = useState<GuysType>(initialPeople)
+
+    const finalPeople = people.map((p: GuyType) => (
+        <div key={p._id} className={s.itemsContainer}>
+            <div>{p.name}</div>
+            <div>{p.age}</div>
         </div>
     ))
 
-    const sortUp = () => setPeople(homeWorkReducer(initialPeople, {type: 'sort', payload: 'up'}))
+    const sortUp = () => setPeople(homeWorkReducer(initialPeople, Sort('up')))
+    const sortDown = () => setPeople(homeWorkReducer(initialPeople, Sort('down')))
+    const sortAge = () => setPeople(homeWorkReducer(initialPeople, SortAge(18)))
 
     return (
-        <div>
+        <div className={s.main}>
             <hr/>
             homeworks 8
-
-            {/*should work (должно работать)*/}
-            {finalPeople}
-
+            <div className={s.container}>{finalPeople}</div>
             <div><SuperButton onClick={sortUp}>sort up</SuperButton></div>
-            <div>sort down</div>
-            check 18
-
+            <div><SuperButton onClick={sortDown}>down</SuperButton></div>
+            <div><SuperButton onClick={sortAge}>check 18</SuperButton></div>
             <hr/>
-            {/*для личного творчества, могу проверить*/}
             {/*<AlternativePeople/>*/}
             <hr/>
         </div>
     )
 }
 
-export default HW8
+export default HW8;

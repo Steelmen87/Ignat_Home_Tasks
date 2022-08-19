@@ -31,7 +31,6 @@ function HW7() {
                 />
             </div>
 
-
             <hr/>
         </div>
     )
