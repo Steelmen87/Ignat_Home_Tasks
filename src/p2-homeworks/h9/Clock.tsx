@@ -6,7 +6,7 @@ function Clock() {
     const [timerId, setTimerId] = useState<number>(0)
     const [dateNow, setDate] = useState<string>('')
     const [show, setShow] = useState<boolean>(false)
-    const [stringTime, setStringTime] = useState<string>('')
+    const [stringTime, setStringTime] = useState<string>('☟ ☟ ☟')
 
     const stop = () => {
         clearInterval(timerId)
