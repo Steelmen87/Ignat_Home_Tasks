@@ -1,0 +1,23 @@
+.clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding-left: 13px;
+    height: 148px;
+    width: 460px;
+    color: blueviolet;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #fff;
+    box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+}
+
+.clock .items {
+    margin: 5px;
+}
+
+.time {
+    width: 80px;
+}
