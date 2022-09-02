@@ -1,0 +1,21 @@
+.hw span{
+    margin-left: 20px;
+}
+.set_loading{
+    width: 300px;
+}
+.main{
+    margin-left: 10px;
+    background-color: #fff;
+    box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6) inset;
+}
+.block{
+    display: flex;
+    align-items: center;
+    height: 110px;
+}
+.dop_param{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

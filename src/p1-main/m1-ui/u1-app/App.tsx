@@ -8,7 +8,6 @@ function App() {
             <div className={s.header}>Homework from Ignat</div>
             <div className={s.mar_b}>react homeworks:</div>
             <HW5/>
-
         </div>
     )
 }
