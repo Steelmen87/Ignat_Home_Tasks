@@ -6,7 +6,7 @@ function Junior() {
     return (
         <div>
             <HW6/>
-            <HW12/>
+
         </div>
     )
 }
